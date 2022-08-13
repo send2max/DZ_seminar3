@@ -11,14 +11,14 @@ while (true)
 int n = Convert.ToInt32(Console.ReadLine()); 
 if(n>0)
 {
-    Console.WriteLine("____________");
-    Console.WriteLine("x | x^3");
-    Console.WriteLine("____________");
+     Console.WriteLine("___________________");
+    Console.WriteLine("число  \t куб числа ");
+     Console.WriteLine("___________________");
     for (int i =1; i<=n; i++)
     {
-       Console.WriteLine($"{i} | {i*i*i} "); 
+       Console.WriteLine($"{i} \t  { Math.Pow(i, 3)} "); 
     }
-    Console.WriteLine("____________");
+    Console.WriteLine("___________________");
     break;
 }
 else
