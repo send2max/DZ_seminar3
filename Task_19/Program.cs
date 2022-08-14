@@ -17,7 +17,7 @@ int palindrom(int num)
         int nul = number / 10000;
         
             if (nul < 1 || nul > 9){
-            Console.WriteLine($"{number} -> это не пятизначное число");  //эта проерка так же исключает написание не натуральных чисел
+            Console.WriteLine($"{number} -> это не пятизначное число");  //эта проверка так же исключает написание не натуральных чисел
             }
             else if  (num1 == rev2 && num2 == rev1){
             Console.WriteLine($"{number} -> да, это полиндром");
